@@ -4,7 +4,7 @@ int main(){
     scanf("%d %d %d",&a,&b,&c);
     if(a>b&&a>c){
         if(a*a==b*b+c*c){
-            printf("valid");
+            printf("Valid");
         }
         else{
             printf("Invalid");
@@ -12,7 +12,7 @@ int main(){
     }
     else if(b>a&&b>c){
         if(b*b==a*a+c*c){
-            printf("valid");
+            printf("Valid");
         }
         else{
             printf("Invalid");
@@ -20,7 +20,7 @@ int main(){
     }
     else if(c>a&&c>b){
         if(c*c==a*a+b*b){
-            printf("valid");
+            printf("Valid");
         }
         else{
             printf("Invalid");
