@@ -17,10 +17,10 @@ int main(){
         printf("%d",a/b);
     }
     else{
-        printf("Division by zero is not allowed");
+        printf("error");
     }}
     else{
-        printf("Error");
+        printf("error");
     }
     return 0;
 }
